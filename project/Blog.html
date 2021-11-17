@@ -1,0 +1,410 @@
+<!-- Afiya  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Blog</title>
+    <style>
+        .text-font {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .text-font-1 {
+            font-family: "Pacifico", Sans-serif;
+        }
+
+        .text-font-2 {
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.5em;
+        }
+
+        .nav_bar ul li:hover ul {
+            display: block;
+        }
+        #cart:hover #info1{
+            display: none;
+        }
+        #cart:hover #info2{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <!-- NAV BAR  -->
+        <div class="bg-white w-full">
+            <div class="container lg:max-w-7xl md:max-w-3xl mx-auto px-4 py-2">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full px-4 ">
+                        <div class="flex items-center px-8 py-2">
+                            <div class="w-full px-4 md:flex block justify-between items-center md:space-y-4 space-y-4">
+                                <div class="">
+                                    <img src="images/logo.png" alt="">
+                                </div>
+                                <div class="nav_bar flex  ">
+                                    <ul class=" flex flex-wrap space-x-4">
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Home.html">Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="About.html">About
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Team.html">Team
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Blog.html">Blog
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Shop.html">Shop
+                                                <svg class="w-4 h-4 mt-0" fill="none" stroke="currentColor"
+                                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M19 9l-7 7-7-7">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                            <ul class="hidden absolute rounded-md px-4 py-4 shadow-xl bg-white">
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Baking
+                                                        us
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Fruit
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Organic
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Packaged Meals
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Vegetables
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Contact.html"> Contacts
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="py-4">
+            <div class="bg-gray-100">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full px-4 py-2">
+                            <div class="flex items-center justify-between py-1">
+                                <div>
+                                    <p class="text-sm font-bold text-gray-800">Blog</p>
+                                </div>
+        
+                                <div class="flex items-center space-x-2">
+                                    <a href="Home.html" class="text-sm text-gray-500">Home</a>
+                                    <p class="text-gray-800">/</p>
+                                    <p class="text-gray-800 text-sm font-medium">Blog</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="py-4">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full lg:w-8/12 px-4">
+                            <div class="w-full flex flex-wrap">
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post7-1160x508-1.jpg" alt="">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">Health Benifits of a Raw Food</a>
+                                    <p class="text-gray-400 py-4">Each month our buyers introduce new products to our stores, and each month we fall for new favorites. From fast and easy meal solutions to seasonal superstars (hello, pumpkin spice...</p>
+                                </div>
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post4-1160x508-1.jpg" alt="">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">The Anytime Snack Pack for Everyone</a>
+                                    <p class="text-gray-400 py-4">With their unusual shapes and varied colors, winter squash — including acorn, spaghetti and butternut squash — make beautiful table decorations. Nothing pretties up a place like a small bunch...</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-wrap">
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post2-1160x508-1.jpg" alt="">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">6-after School Snacks the Kiddos Will Love</a>
+                                    <p class="text-gray-400 py-4">Look beyond butternut squash’s intimidating hard skin, and you’ll find a bright orange flesh, buttery texture and slightly sweet, nutty flavor — with so many meal possibilities! Why should you...</p>
+                                </div>
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post3-1160x508-1.jpg" alt="">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">5 Easy Ways to Turn a Sweet Potato into a Delicious Dinner</a>
+                                    <p class="text-gray-400 py-4">Why should you make butternut squash your go-to ingredient for fall and winter meals? Look beyond butternut squash’s intimidating hard skin, and you’ll find a bright orange flesh, buttery texture...</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-wrap">
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post10-1000x508-1.jpg" alt="" class="md:h-40 w-full">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">100+ Fall Pumpkin Ideas to Satisfy your Observation</a>
+                                    <p class="text-gray-400 py-4">The kids are back in school and the slightly cooler weather has arrived, which means it’s time for all things pumpkin to return to stores. From actual pumpkins to pumpkin...</p>
+                                </div>
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post5-1160x508-1.jpg" alt="" class="md:h-40 w-full">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-800 hovermenu hover:transform transition-all duration-500 fontfam">What's new: Pumpkin Spice Bites, Vegan Vitamins and more</a>
+                                    <p class="text-gray-400 py-4">Each month our buyers introduce new products to our stores, and each month we fall for new favorites. From fast and easy meal solutions to seasonal superstars (hello, pumpkin spice...</p>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <div class="md:w-6/12 w-full p-4">
+                                    <a href="#">
+                                        <img src="images/post9-1024x508-1.jpg" alt="" class="w-full">
+                                    </a>
+                                    <div class="space-x-1 py-4">
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">admin</a>
+                                        <a href="#" class="text-xs text-gray-400 font-semibold hovermenu hover:transform transition-all duration-500">October 23,2017</a>
+                                    </div>
+                                    <a href="#" class="italic text-3xl text-gray-700 hovermenu hover:transform transition-all duration-500 fontfam">5 Reasons to Love Butternut Squash</a>
+                                    <p class="text-gray-400 py-4">Look beyond butternut squash’s intimidating hard skin, and you’ll find a bright orange flesh, buttery texture and slightly sweet, nutty flavor — with so many meal possibilities! Why should you...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <div class="flex items-center space-x-2 py-4 w-full">
+                                <input  type="text" name="text" placeholder="Enter keyword search" class="border rounded focus:outline-none px-4 py-2 text-sm w-11/12">
+                                <div class="text-white bgcolor px-2 py-2 rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="border-b w-10/12 my-10"></div>
+                            <div class="">
+                                <p class="text-xl text-gray-700 hovermenu hover:transform transition-all duration-500 fontfam uppercase pb-4">Recent Posts</p>
+                                <div class="list-none space-y-4">
+                                    <li><a href="#" class="text-gray-800 text-sm hover:text-gray-400 hover:transform transition-all duration-500">Health Benifints of a Raw Food</a></li>
+                                    <li><a href="#" class="text-gray-800 text-sm hover:text-gray-400 hover:transform transition-all duration-500">The Anytime Snack Pack for Everyone</a></li>
+                                    <li><a href="#" class="text-gray-800 text-sm hover:text-gray-400 hover:transform transition-all duration-500">6 After-School Snacksthe Kiddo Will Love</a></li>
+                                    <li><a href="#" class="text-gray-800 text-sm hover:text-gray-400 hover:transform transition-all duration-500">5 Easy Ways to Turn a Sweet Potato into a Delicious Dinner</a></li>
+                                    <li><a href="#" class="text-gray-800 text-sm hover:text-gray-400 hover:transform transition-all duration-500">100+ Fall Pumpkin Ideas to Satisfy your Obsession</a></li>
+                                </div>
+                            </div>
+    
+                            <div class="border-b w-10/12 my-10"></div>
+    
+                            <div>
+                                <p class="text-xl text-gray-700 hovermenu hover:transform transition-all duration-500 fontfam uppercase pb-6">Recent comments</p>
+                                <div class="space-y-4">
+                                    <div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fa-solid fa-comment text-gray-400"></i>
+                                            <p class="text-gray-300 text-sm">admin on</p>
+                                        </div>
+                                        <a href="#" class="text-sm text-gray-800 hover:text-gray-400 transform transition-all duration-500">The Anytime Snack Pack for Everyone</a>
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fa-solid fa-comment text-gray-400"></i>
+                                            <p class="text-gray-300 text-sm">admin on</p>
+                                        </div>
+                                        <a href="#" class="text-sm text-gray-800 hover:text-gray-400 transform transition-all duration-500">Bob's Red Mill</a>
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fa-solid fa-comment text-gray-400"></i>
+                                            <p class="text-gray-300 text-sm">admin on</p>
+                                        </div>
+                                        <a href="#" class="text-sm text-gray-800 hover:text-gray-400 transform transition-all duration-500">Organic Leek bunch</a>
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fa-solid fa-comment text-gray-400"></i>
+                                            <p class="text-gray-300 text-sm">admin on</p>
+                                        </div>
+                                        <a href="#" class="text-sm text-gray-800 hover:text-gray-400 transform transition-all duration-500">Organic Parsley</a>
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fa-solid fa-comment text-gray-400"></i>
+                                            <p class="text-gray-300 text-sm">admin on</p>
+                                        </div>
+                                        <a href="#" class="text-sm text-gray-800 hover:text-gray-400 transform transition-all duration-500">Cascadian Farm Organic Cinnamon Crunch</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="border-b w-10/12 my-10"></div>
+    
+                            <div>
+                                <p class="text-xl text-gray-700 hovermenu hover:transform transition-all duration-500 fontfam uppercase pb-6">categories</p>
+                                <div class="list-none space-y-1">
+                                    <li><a href="#" class="text-gray-400 text-sm transform transition-all duration-500 hovermenu">New Products</a></li>
+                                    <li><a href="#" class="text-gray-400 text-sm transform transition-all duration-500 hovermenu">Our Stores</a></li>
+                                    <li><a href="#" class="text-gray-400 text-sm transform transition-all duration-500 hovermenu">Your Health</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>   
+    <footer>
+        <div class="bg-no-repeat bg-cover" style="background-image: url(./image/footer-widgets-bg.jpg);">
+            <div class="container mx-auto px-4 lg:max-w-7xl md:max-w-4xl pt-10">
+                <div class="w-full md:px-8 py-24">
+                    <div class="md:flex flex-wrap md:space-y-0 space-y-4">
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">Categories </p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">New Products</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Our Stores</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Top sellers</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Your Health</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-3/12  px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">Information</p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Home</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">About</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Blog</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Shop</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">My account</p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Checkout</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Compare</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">My account</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Wishlist</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="py-4 flex md:justify-start justify-center">
+                                 <div class="md:text-left text-center space-y-4">
+                                    <div class="">
+                                        <h1 class="text-xl font-bold text-gray-600 md:px-2 px-0 text-font-1">Store Information</h1>
+                                    </div>
+                                    <div class="flex space-x-3">
+                                        <i class="fas fa-map-marker-alt textcolor pt-2"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">Address: 4578 Marmora Road, Glasgow</p>
+                                    </div>
+                                    <div class="flex space-x-3">
+                                        <i class="fa-solid fa-phone textcolor pt-2"></i>
+                                        <a class="text-sm font-normal text-gray-500 py-1" href="">    	Phones: +3(800) 2345-6789:
+    
+                                            +3(800) 2345-6790
+                                        
+                                        </a>
+                                    </div>
+                                    <div class="flex space-x-3 ">
+                                        <i class="far fa-clock textcolor pt-2"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">Hours: 7 Days a week from 9:00 am to 7:00 pm
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <i class="far fa-envelope textcolor"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">E-mail: info@demolink.org
+                                        </p>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--=============================================footer====================================================-->
+</body>
+</html>
+

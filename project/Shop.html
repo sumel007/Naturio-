@@ -1,0 +1,550 @@
+<!-- Afiya  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Shop</title>
+    <style>
+        .text-font {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .text-font-1 {
+            font-family: "Pacifico", Sans-serif;
+        }
+
+        .text-font-2 {
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.5em;
+        }
+
+        .nav_bar ul li:hover ul {
+            display: block;
+        }
+        #cart:hover #info1{
+            display: none;
+        }
+        #cart:hover #info2{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- NAV BAR  -->
+        <div class="bg-white w-full">
+            <div class="container lg:max-w-7xl md:max-w-3xl mx-auto px-4 py-2">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full px-4 ">
+                        <div class="flex items-center px-8 py-2">
+                            <div class="w-full px-4 md:flex block justify-between items-center md:space-y-4 space-y-4">
+                                <div class="">
+                                    <img src="images/logo.png" alt="">
+                                </div>
+                                <div class="nav_bar flex  ">
+                                    <ul class=" flex flex-wrap space-x-4">
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Home.html">Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="About.html">About
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Team.html">Team
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Blog.html">Blog
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Shop.html">Shop
+                                                <svg class="w-4 h-4 mt-0" fill="none" stroke="currentColor"
+                                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M19 9l-7 7-7-7">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                            <ul class="hidden absolute rounded-md px-4 py-4 shadow-xl bg-white">
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Baking
+                                                        us
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Fruit
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Organic
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Packaged Meals
+                                                    </a>
+                                                </li>
+                                                <li class="relative block">
+                                                    <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                        href="Shop.html">Vegetables
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="md:p-2 p-1 flex items-center text-font text-sm font-bold uppercase text-gray-400 hover:text-green-500"
+                                                href="Contact.html"> Contacts
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="py-4">
+            <div class="bg-gray-100">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full px-4 py-2">
+                            <div class="flex items-center justify-between py-1">
+                                <div>
+                                    <p class="text-sm font-bold text-gray-800">Blog</p>
+                                </div>
+        
+                                <div class="flex items-center space-x-2">
+                                    <a href="Home.html" class="text-sm text-gray-500">Home</a>
+                                    <p class="text-gray-800">/</p>
+                                    <p class="text-gray-800 text-sm font-medium">Blog</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container mx-auto px-4 py-8">
+                <div class="flex flex-wrap -mx-4 justify-between">
+                    <div class="w-full md:w-3/12 px-4">
+                        <div class=" border-r border-gray-300">
+                            <div class="w-10/12 space-y-3">
+                                <input type="text" name="text" placeholder="Search..." class="border py-3 px-4 focus:outline-none w-full">
+                                <div class="w-full" style="background-color:#9ac93b;"><button class="text-sm w-full px-8 py-4 text-white font-semibold">GO!</button></div>
+                            </div>
+        
+                            <div class="border-b w-10/12 my-10 border-gray-300"></div>
+        
+                            <div>
+                                <p class="fontfam text-xl text-gray-600 pb-8">Filter</p>
+                                <div class="space-y-1">
+                                    <div class="flex items-center space-x-2">
+                                        <input type="checkbox" name="checkbox">
+                                        <lable class="text-sm" style="color: #679509;">Baking</lable>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <input type="checkbox" name="checkbox">
+                                        <lable class="text-sm" style="color: #679509;">Fruit</lable>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <input type="checkbox" name="checkbox">
+                                        <lable class="text-sm" style="color: #679509;">Organic</lable>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <input type="checkbox" name="checkbox">
+                                        <lable class="text-sm" style="color: #679509;">Packaged Meals</lable>
+                                    </div>
+                                    <div class="flex items-center space-x-2">
+                                        <input type="checkbox" name="checkbox">
+                                        <lable class="text-sm" style="color: #679509;">Vegetable</lable>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="border-b w-10/12 my-10 border-gray-300"></div>
+        
+                            <div>
+                                <p class="fontfam text-xl text-gray-600 pb-8">Filter</p>
+                                <p class="text-gray-400">$2 - $26</p>
+                                <input type="range" id="vol" name="vol" min="0" max="100">
+                            </div> 
+                            
+                            <div class="border-b w-10/12 my-10 border-gray-300"></div>
+        
+                            <div class="w-4/12 md:w-full">
+                                <p class="fontfam text-xl text-gray-600 pb-8">Products</p>
+                                <div class="space-y-8">
+                                    <div class="flex items-center space-x-4">
+                                        <img src="images/Organic-Beetroot-1kg-600x600-1.jpg" alt="" class="w-7/12 lg:w-6/12 border">
+                                        <div class="w-4/12 space-y-2">
+                                            <a href="#" class="text-xs text-center" style="color: #679509;">fruit, Organic, vegetable</a>
+                                            <a href="#" class="text-gray-600 hover:text-green-400">Organic Beetroot</a>
+                                            <div class="pt-4">
+                                                <del class="text-gray-700 font-semibold">$3.99</del>
+                                                <p class="text-xl font-semibold" style="color: #679509;">$2.05</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center space-x-4">
+                                        <img src="images/Organic-Cauliflower-600x600-1.jpg" alt="" class="w-7/12 lg:w-6/12 border">
+                                        <div class="w-4/12 space-y-2">
+                                            <a href="#" class="text-xs text-center" style="color: #679509;">fruit, Organic, vegetable</a>
+                                            <a href="#" class="text-gray-600 hover:text-green-400">Organic Beetroot</a>
+                                            <div class="pt-4">
+                                                <del class="text-gray-700 font-semibold">$3.99</del>
+                                                <p class="text-xl font-semibold" style="color: #679509;">$2.05</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center space-x-4">
+                                        <img src="images/Bobs-Red-Mill-Whole-Wheat-Flour-5-lb-Pack-of-4_1-600x600-1.jpg" alt="" class="w-7/12 lg:w-6/12 border">
+                                        <div class="w-4/12 space-y-2">
+                                            <a href="#" class="text-xs text-center" style="color: #679509;">fruit, Organic, vegetable</a>
+                                            <a href="#" class="text-gray-600 hover:text-green-400">Organic Beetroot</a>
+                                            <div class="pt-4">
+                                                <del class="text-gray-700 font-semibold">$3.99</del>
+                                                <p class="text-xl font-semibold" style="color: #679509;">$2.05</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="w-full md:w-9/12 px-4">
+                        <div class="w-full px-4">
+                            <p class="text-3xl fontfam text-gray-600 py-2">Baking</p>
+                            <div class="py-5 text-gray-400 text-sm">
+                                <label class="block text-left w-5/12 ">
+                                    <select class="form-select block w-full mt-1 focus:outline-none px-3 py-3 border">
+                                    <option>Default Sorting</option>
+                                    <option>Sort by Popularity</option>
+                                    <option>Sort by Average Rating</option>
+                                    <option>Sort by Latest</option>
+                                    <option>Sort by Price:low to high</option>
+                                    <option>Sort by Price:high to low</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <p class="text-gray-600 text-sm">Active filters:Filter: <span class="hover:text-green-400 cursor-pointer">Baking</span></p>
+                        </div>
+                        <div class="flex flex-wrap justify-center md:justify-start pt-10">
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Organic-Beetroot-1kg-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Organic Beetroot</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Organic-Cauliflower-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">Baking, fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Organic Cauliflower</p>
+                                            <p class="text-xl textcolor font-semibold text-center">$2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Bobs-Red-Mill-Whole-Wheat-Flour-5-lb-Pack-of-4_1-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Bobs Red Mill</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Cascadian-Farm-Organic-Cinnamon-Crunch-9.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Cascadian Farm Organic Cinnamon</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Crisco-Organic-Refined-Coconut-Oil-27-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Crisco Organic Refined Coconut</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Great-Value-Organic-Unsweetened-Applesauce-23-oz_1_2-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Great Value Organic Unsweetened</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Great-Value-Organic-Whole-Kernel-Corn-15-600x600-1.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Great Value Organic Whole Kernel</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 w-full md:w-6/12 lg:w-4/12 px-4">
+                                <div class="relative ovshow">
+                                    <div class="w-full">
+                                        <img src="images/Happy-Baby-Organics-Strawberry-Beet-Superfood-Puffs-2.jpg" alt="" class="border">
+                                        <div class="pt-6 space-y-1">
+                                            <p class="text-xs textcolor text-center">fruit, Organic, vegetable</p>
+                                            <p class="text-center text-gray-700 font-semibold">Happy Baby Organics Strawberry</p>
+                                            <p class="text-xl textcolor font-semibold text-center"><del>$3.99</del> $2.05</p> 
+                                        </div>
+                                    </div>
+            
+                                    <div class="bg-white w-full absolute left-0 right-0 bottom-0 h-0 overlay overflow-hidden">
+                                        <div class="text-center py-2 space-x-2" style="background-color: #679509;">
+                                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                                            <a href="#" class="uppercase text-sm text-white font-semibold">Add to Cart</a>
+                                        </div>
+                                        <div class="flex justify-between px-10 py-4">
+                                            <i class="fa-regular fa-eye"></i>
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-10 space-x-1 px-4">
+                            <button class="px-5 py-2 font-semibold text-white border border-gray-700" style="background-color: #679509;">1</button>
+                            <button class="px-5 py-2 font-semibold text-gray-600 bg-white hovef hover:text-white transform transition-all duration-500 border border-gray-700">2</button>
+                            <button class="px-5 py-2 font-semibold text-gray-600 bg-white hovef hover:text-white transform transition-all duration-500 border border-gray-700">3</button>
+                            <button class="px-5 py-2 font-semibold text-gray-600 bg-white hovef hover:text-white transform transition-all duration-500 border border-gray-700">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>   
+    
+    <footer>
+        <div class="bg-no-repeat bg-cover" style="background-image: url(images/footer-widgets-bg.jpg);">
+            <div class="container mx-auto px-4 lg:max-w-7xl md:max-w-4xl pt-10">
+                <div class="w-full md:px-8 py-24">
+                    <div class="md:flex flex-wrap md:space-y-0 space-y-4">
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">Categories </p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">New Products</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Our Stores</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Top sellers</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Your Health</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-3/12  px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">Information</p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Home</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">About</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Blog</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Shop</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="flex w-full md:justify-start justify-center">
+                                <ul class="space-y-1">
+                                    <p class="text-xl font-bold text-gray-600 py-4 text-font-1">My account</p>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Checkout</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Compare</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">My account</a></li>
+                                    <li class="text-sm font-normal text-gray-500 py-1 hovermenu"><a href="">Wishlist</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-3/12 w-full px-4">
+                            <div class="py-4 flex md:justify-start justify-center">
+                                 <div class="md:text-left text-center space-y-4">
+                                    <div class="">
+                                        <h1 class="text-xl font-bold text-gray-600 md:px-2 px-0 text-font-1">Store Information</h1>
+                                    </div>
+                                    <div class="flex space-x-3">
+                                        <i class="fas fa-map-marker-alt textcolor pt-2"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">Address: 4578 Marmora Road, Glasgow</p>
+                                    </div>
+                                    <div class="flex space-x-3">
+                                        <i class="fa-solid fa-phone textcolor pt-2"></i>
+                                        <a class="text-sm font-normal text-gray-500 py-1" href="">    	Phones: +3(800) 2345-6789:
+    
+                                            +3(800) 2345-6790
+                                        
+                                        </a>
+                                    </div>
+                                    <div class="flex space-x-3 ">
+                                        <i class="far fa-clock textcolor pt-2"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">Hours: 7 Days a week from 9:00 am to 7:00 pm
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <i class="far fa-envelope textcolor"></i>
+                                        <p class="text-sm font-normal text-gray-500 py-1">E-mail: info@demolink.org
+                                        </p>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--=============================================footer====================================================-->
+</body>
+</html>
